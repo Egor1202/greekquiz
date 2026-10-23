@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Λέξεις — греческие слова в квизах</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F3F6F9;--surface:#FFFFFF;--ink:#0D2B4A;--muted:#5A6E82;--line:#D3DDE6;--accent:#1B5E9B;--accent-ink:#FFFFFF;--ok:#2F7D4F;--ok-bg:#DDF0E4;--bad:#B23A3A;--bad-bg:#F6DEDE;--sun:#E8A917;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0B1724;--surface:#12263A;--ink:#E8F0F7;--muted:#98AEC2;--line:#25415C;--accent:#5BA3E0;--accent-ink:#0B1724;--ok:#6FCB92;--ok-bg:#16402B;--bad:#F08A8A;--bad-bg:#4A2022;--sun:#F2B82E}}
+:root[data-theme="dark"]{--bg:#0B1724;--surface:#12263A;--ink:#E8F0F7;--muted:#98AEC2;--line:#25415C;--accent:#5BA3E0;--accent-ink:#0B1724;--ok:#6FCB92;--ok-bg:#16402B;--bad:#F08A8A;--bad-bg:#4A2022;--sun:#F2B82E}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Manrope,system-ui,sans-serif;line-height:1.5;min-height:100vh}
+main{max-width:560px;margin:0 auto;padding:28px 18px 48px}
+h1,.greek{font-family:"Noto Serif",Georgia,serif}
+h1{font-size:2.2rem;margin:0 0 4px;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:0 0 24px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:16px}
+h2{font-size:1rem;margin:0 0 12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:inherit;border:1.5px solid var(--line);background:transparent;color:var(--ink);padding:8px 14px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:600}
+button:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+.btn{font:inherit;font-weight:700;width:100%;padding:14px;border:0;border-radius:12px;background:var(--accent);color:var(--accent-ink);cursor:pointer;font-size:1rem}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:10px}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin-bottom:8px}
+.bar>i{display:block;height:100%;background:var(--accent);transition:width .3s}
+.meta{display:flex;justify-content:space-between;color:var(--muted);font-size:.9rem;margin-bottom:18px}
+.q{font-size:2.6rem;text-align:center;margin:18px 0 4px;font-weight:700;overflow-wrap:anywhere}
+.q.ru{font-family:Manrope,sans-serif;font-size:2rem}
+.tr{text-align:center;color:var(--muted);min-height:1.5em;margin-bottom:20px}
+.opts{display:grid;gap:10px}
+.opt{font:inherit;font-size:1.05rem;text-align:left;padding:14px 16px;border-radius:12px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.opt.greek{font-size:1.2rem}
+.opt:hover:not(:disabled){border-color:var(--accent)}
+.opt.ok{background:var(--ok-bg);border-color:var(--ok);color:var(--ink)}
+.opt.bad{background:var(--bad-bg);border-color:var(--bad);color:var(--ink)}
+.opt:disabled{cursor:default}
+.score{font-size:3.4rem;font-weight:700;text-align:center;margin:6px 0}
+.center{text-align:center;color:var(--muted)}
+.miss{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-top:1px solid var(--line)}
+.miss:first-of-type{border-top:0}
+.miss span:last-child{color:var(--muted);text-align:right}
+.hidden{display:none}
+.top{display:flex;justify-content:space-between;align-items:start}
+.theme{font:inherit;background:none;border:1.5px solid var(--line);color:var(--ink);border-radius:10px;padding:6px 10px;cursor:pointer}
+/* minimal */
+:root{--bg:#FFFFFF;--surface:#FFFFFF;--ink:#111111;--muted:#8A8A8A;--line:#E6E6E6;--accent:#111111;--accent-ink:#FFFFFF;--ok:#111111;--ok-bg:transparent;--bad:#9A9A9A;--bad-bg:transparent}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0E0E0E;--surface:#0E0E0E;--ink:#F2F2F2;--muted:#7A7A7A;--line:#262626;--accent:#F2F2F2;--accent-ink:#0E0E0E;--ok:#F2F2F2;--bad:#6E6E6E}}
+:root[data-theme="dark"]{--bg:#0E0E0E;--surface:#0E0E0E;--ink:#F2F2F2;--muted:#7A7A7A;--line:#262626;--accent:#F2F2F2;--accent-ink:#0E0E0E;--ok:#F2F2F2;--bad:#6E6E6E}
+:root[data-theme="light"]{--bg:#FFFFFF;--surface:#FFFFFF;--ink:#111111;--muted:#8A8A8A;--line:#E6E6E6;--accent:#111111;--accent-ink:#FFFFFF;--ok:#111111;--bad:#9A9A9A}
+:root:not([data-theme="dark"]){--bg:#FFFFFF;--surface:#FFFFFF;--ink:#000000;--muted:#333333;--line:#DDDDDD;--accent:#000000;--accent-ink:#FFFFFF;--ok:#000000;--bad:#555555}
+body{background:#fff;color:#000}
+main{padding-top:56px;max-width:480px}
+h1{font-weight:500;font-size:1.6rem}
+.sub{font-size:.9rem;margin-bottom:48px}
+.panel{background:none;border:0;border-radius:0;padding:0;margin-bottom:36px}
+h2{font-size:.8rem;font-weight:400;color:var(--muted);margin-bottom:10px}
+.chips{gap:4px 20px}
+.chip{border:0;border-radius:0;padding:4px 0;color:var(--muted);font-weight:400}
+.chip[aria-pressed="true"]{background:none;color:var(--ink);font-weight:600;box-shadow:0 1.5px 0 var(--ink)}
+.btn{border-radius:0;font-weight:500;padding:16px}
+.btn.ghost{border:0;border-top:1px solid var(--line);margin-top:0;color:var(--muted)}
+.bar{height:1px;border-radius:0}
+.bar>i{background:var(--ink)}
+.meta{font-size:.8rem;margin-bottom:56px}
+.panel .q{font-weight:500;margin-top:0}
+.opts{gap:0}
+.opt{border:0;border-top:1px solid var(--line);border-radius:0;padding:16px 0;background:none}
+.opt:last-child{border-bottom:1px solid var(--line)}
+.opt:hover:not(:disabled){border-color:var(--line);color:var(--muted)}
+.opt.ok{border-color:var(--line);font-weight:700;box-shadow:inset 3px 0 0 var(--ink);padding-left:14px}
+.opt.bad{text-decoration:line-through;color:var(--bad);border-color:var(--line)}
+#next{margin-top:36px}
+.score{font-weight:500}
+.miss{border-color:var(--line)}
+.theme{border:0;color:var(--muted)}
+.opt.ok,.opt.bad{border:1.5px solid;padding:16px 14px;text-decoration:none;box-shadow:none;color:var(--ink)}
+.opt.ok{border-color:#1E7A3E;background:rgba(30,122,62,.13);font-weight:700}
+.opt.bad{border-color:#C0392B;background:rgba(192,57,43,.13)}
+.fb{text-align:center;font-weight:700;min-height:1.6em;margin:-8px 0 18px}
+.fb.ok{color:#1E7A3E}
+.fb.bad{color:#C0392B}
+.ring{position:relative;width:180px;margin:20px auto}
+.ring svg{display:block;width:100%}
+.rt{fill:none;stroke:var(--line);stroke-width:6}
+.rf{fill:none;stroke:var(--ink);stroke-width:6;stroke-linecap:round;stroke-dasharray:326.7;stroke-dashoffset:326.7;transition:stroke-dashoffset .9s ease}
+.pct{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:2.6rem;font-weight:500}
+.score{font-size:1rem;color:var(--muted);margin:0 0 8px}
+</style>
+</head>
+<body>
+<main>
+<section id="menu">
+  <div class="top"><div><h1 class="greek">Λέξεις</h1><p class="sub">Греческие слова в формате квиза</p></div><button class="theme" id="theme" aria-label="Сменить тему">◐</button></div>
+  <div class="panel"><h2>Темы</h2><div class="chips" id="cats"></div></div>
+  <div class="panel"><h2>Направление</h2><div class="chips" id="dirs"></div></div>
+  <div class="panel"><h2>Вопросов в раунде</h2><div class="chips" id="lens"></div></div>
+  <button class="btn" id="start">Начать квиз</button>
+  <p class="center" id="best"></p>
+</section>
+
+<section id="quiz" class="hidden">
+  <div class="bar"><i id="prog"></i></div>
+  <div class="meta"><span id="count"></span><span id="streak"></span></div>
+  <div class="panel">
+    <div class="q greek" id="word"></div>
+    <div class="tr" id="tr"></div>
+    <div class="fb" id="fb"></div>
+    <div class="opts" id="opts"></div>
+  </div>
+  <button class="btn" id="next" disabled>Дальше</button>
+</section>
+
+<section id="result" class="hidden">
+  <div class="panel"><div class="center">Ваш результат</div><div class="ring"><svg viewBox="0 0 120 120" aria-hidden="true"><circle class="rt" cx="60" cy="60" r="52"/><circle class="rf" id="rf" cx="60" cy="60" r="52" transform="rotate(-90 60 60)"/></svg><div class="pct" id="pct"></div></div><div class="score center" id="score"></div><p class="center" id="msg"></p></div>
+  <div class="panel hidden" id="missPanel"><h2>Ошибки</h2><div id="miss"></div></div>
+  <button class="btn" id="again">Новый раунд</button>
+  <button class="btn ghost" id="retry">Повторить ошибки</button>
+  <button class="btn ghost" id="toMenu">В меню</button>
+</section>
+</main>
+
+<script>
+const WORDS = {
+  "Приветствия": [
+    ["γεια σου","ya su","привет"],["γεια σας","ya sas","здравствуйте"],["καλημέρα","kalimera","доброе утро"],["καλησπέρα","kalispera","добрый вечер"],
+    ["καληνύχτα","kalinychta","спокойной ночи"],["ευχαριστώ","efcharisto","спасибо"],["παρακαλώ","parakalo","пожалуйста"],["συγγνώμη","signomi","извините"],
+    ["ναι","ne","да"],["όχι","ochi","нет"],["αντίο","adio","до свидания"],["με λένε","me lene","меня зовут"],["τι κάνεις;","ti kanis","как дела?"],["καλά","kala","хорошо"]
+  ],
+  "Местоимения и вопросы": [
+    ["εγώ","egho","я"],["εσύ","esi","ты"],["αυτός","aftos","он"],["αυτή","afti","она"],["εμείς","emis","мы"],["εσείς","esis","вы"],["αυτοί","afti","они"],
+    ["τι","ti","что"],["ποιος","pios","кто"],["πού","pu","где"],["πότε","pote","когда"],["γιατί","yiati","почему"],["πώς","pos","как"],["πόσο","poso","сколько"]
+  ],
+  "Числа": [
+    ["ένα","ena","один"],["δύο","dio","два"],["τρία","tria","три"],["τέσσερα","tessera","четыре"],["πέντε","pente","пять"],["έξι","exi","шесть"],
+    ["εφτά","efta","семь"],["οχτώ","ochto","восемь"],["εννιά","ennia","девять"],["δέκα","deka","десять"],["είκοσι","ikosi","двадцать"],["εκατό","ekato","сто"]
+  ],
+  "Семья и люди": [
+    ["η μητέρα","i mitera","мама"],["ο πατέρας","o pateras","отец"],["ο αδερφός","o aderfos","брат"],["η αδερφή","i aderfi","сестра"],["ο γιος","o yios","сын"],["η κόρη","i kori","дочь"],
+    ["ο παππούς","o pappus","дедушка"],["η γιαγιά","i yiayia","бабушка"],["ο φίλος","o filos","друг"],["το παιδί","to pedi","ребёнок"],["ο άντρας","o andras","мужчина"],["η γυναίκα","i yineka","женщина"]
+  ],
+  "Еда и напитки": [
+    ["το ψωμί","to psomi","хлеб"],["το νερό","to nero","вода"],["το κρασί","to krasi","вино"],["το τυρί","to tyri","сыр"],["η ελιά","i elia","олива"],["το μήλο","to milo","яблоко"],
+    ["το γάλα","to gala","молоко"],["ο καφές","o kafes","кофе"],["το τσάι","to tsai","чай"],["το ψάρι","to psari","рыба"],["το κρέας","to kreas","мясо"],["το αυγό","to avgo","яйцо"],
+    ["η πατάτα","i patata","картофель"],["η ντομάτα","i domata","помидор"],["η σαλάτα","i salata","салат"],["ο λογαριασμός","o logariasmos","счёт"]
+  ],
+  "Дом": [
+    ["το σπίτι","to spiti","дом"],["το δωμάτιο","to domatio","комната"],["η κουζίνα","i kuzina","кухня"],["η πόρτα","i porta","дверь"],["το παράθυρο","to parathiro","окно"],
+    ["το τραπέζι","to trapezi","стол"],["η καρέκλα","i karekla","стул"],["το κρεβάτι","to krevati","кровать"],["το μπάνιο","to banio","ванная"],["ο κήπος","o kipos","сад"],["το κλειδί","to klidi","ключ"]
+  ],
+  "Город": [
+    ["ο δρόμος","o dromos","улица"],["η πόλη","i poli","город"],["το χωριό","to chorio","деревня"],["το μαγαζί","to magazi","магазин"],["το εστιατόριο","to estiatorio","ресторан"],
+    ["το ξενοδοχείο","to ksenodochio","гостиница"],["το νοσοκομείο","to nosokomio","больница"],["το φαρμακείο","to farmakio","аптека"],["η τράπεζα","i trapeza","банк"],["η πλατεία","i platia","площадь"],["η παραλία","i paralia","пляж"]
+  ],
+  "Транспорт": [
+    ["το λεωφορείο","to leoforio","автобус"],["το τρένο","to treno","поезд"],["το αεροπλάνο","to aeroplano","самолёт"],["το αυτοκίνητο","to aftokinito","машина"],["το αεροδρόμιο","to aerodromio","аэропорт"],
+    ["το λιμάνι","to limani","порт"],["το εισιτήριο","to isitirio","билет"],["το ταξί","to taxi","такси"],["η στάση","i stasi","остановка"],["το ποδήλατο","to podilato","велосипед"]
+  ],
+  "Время и дни": [
+    ["η ώρα","i ora","час"],["η μέρα","i mera","день"],["η εβδομάδα","i evdomada","неделя"],["ο μήνας","o minas","месяц"],["ο χρόνος","o chronos","год"],["σήμερα","simera","сегодня"],
+    ["αύριο","avrio","завтра"],["χθες","chthes","вчера"],["τώρα","tora","сейчас"],["το πρωί","to proi","утро"],["το βράδυ","to vradi","вечер"],["η Δευτέρα","i deftera","понедельник"],["η Κυριακή","i kiriaki","воскресенье"]
+  ],
+  "Цвета": [
+    ["κόκκινο","kokkino","красный"],["μπλε","ble","синий"],["πράσινο","prasino","зелёный"],["κίτρινο","kitrino","жёлтый"],["άσπρο","aspro","белый"],
+    ["μαύρο","mavro","чёрный"],["γκρι","gri","серый"],["καφέ","kafe","коричневый"],["πορτοκαλί","portokali","оранжевый"],["ροζ","roz","розовый"]
+  ],
+  "Тело и здоровье": [
+    ["το κεφάλι","to kefali","голова"],["το χέρι","to cheri","рука"],["το πόδι","to podi","нога"],["το μάτι","to mati","глаз"],["το αυτί","to afti","ухо"],["η μύτη","i miti","нос"],
+    ["το στόμα","to stoma","рот"],["η καρδιά","i kardia","сердце"],["ο γιατρός","o yiatros","врач"],["ο πόνος","o ponos","боль"],["άρρωστος","arrostos","больной"]
+  ],
+  "Одежда": [
+    ["το πουκάμισο","to pukamiso","рубашка"],["το παντελόνι","to pantaloni","брюки"],["το φόρεμα","to forema","платье"],["η φούστα","i fusta","юбка"],["το παλτό","to palto","пальто"],
+    ["το μπουφάν","to bufan","куртка"],["τα παπούτσια","ta paputsia","обувь"],["το καπέλο","to kapelo","шляпа"],["η τσάντα","i tsanta","сумка"],["τα γυαλιά","ta yialia","очки"]
+  ],
+  "Погода и природа": [
+    ["ο καιρός","o keros","погода"],["ο ήλιος","o ilios","солнце"],["η βροχή","i vrochi","дождь"],["ο αέρας","o aeras","ветер"],["το χιόνι","to chioni","снег"],["το σύννεφο","to sinnefo","облако"],
+    ["η θάλασσα","i thalassa","море"],["το βουνό","to vuno","гора"],["το δέντρο","to dentro","дерево"],["το λουλούδι","to luludi","цветок"]
+  ],
+  "Глаголы": [
+    ["είμαι","ime","я есть"],["έχω","echo","я имею"],["θέλω","thelo","я хочу"],["μπορώ","boro","я могу"],["πάω","pao","я иду, еду"],["έρχομαι","erchome","я прихожу"],
+    ["κάνω","kano","я делаю"],["λέω","leo","я говорю"],["βλέπω","vlepo","я вижу"],["τρώω","troo","я ем"],["πίνω","pino","я пью"],["ξέρω","ksero","я знаю"],
+    ["αγαπώ","agapo","я люблю"],["μένω","meno","я живу, остаюсь"],["αγοράζω","agorazo","я покупаю"],["κοιμάμαι","kimame","я сплю"]
+  ],
+  "Прилагательные и наречия": [
+    ["καλός","kalos","хороший"],["κακός","kakos","плохой"],["μεγάλος","megalos","большой"],["μικρός","mikros","маленький"],["νέος","neos","новый, молодой"],["παλιός","palios","старый"],
+    ["όμορφος","omorfos","красивый"],["ζεστός","zestos","горячий"],["κρύος","krios","холодный"],["εύκολος","efkolos","лёгкий"],["δύσκολος","dyskolos","трудный"],["γρήγορα","grigora","быстро"],["πολύ","poli","очень, много"],["λίγο","ligo","немного"]
+  ],
+  "Работа и учёба": [
+    ["η δουλειά","i dulia","работа"],["το σχολείο","to scholio","школа"],["ο δάσκαλος","o daskalos","учитель"],["ο φοιτητής","o fititis","студент"],["το βιβλίο","to vivlio","книга"],["το μάθημα","to mathima","урок"],
+    ["το γραφείο","to grafio","офис"],["τα λεφτά","ta lefta","деньги"],["το τηλέφωνο","to tilefono","телефон"],["ο υπολογιστής","o ypologistis","компьютер"],["η ερώτηση","i erotisi","вопрос"]
+  ],
+  "Служебные слова": [
+    ["και","ke","и"],["αλλά","alla","но"],["ή","i","или"],["με","me","с"],["για","ya","для, о"],["από","apo","от, из"],["σε","se","в, на"],
+    ["εδώ","edo","здесь"],["εκεί","eki","там"],["πάντα","panta","всегда"],["ποτέ","pote","никогда"],["ίσως","isos","может быть"]
+  ],
+  "Магазин и покупки": [["η τιμή","i timi","цена"],["ακριβός","akrivos","дорогой"],["φτηνός","ftinos","дешёвый"],["το σούπερ μάρκετ","to supermarket","супермаркет"],["η αγορά","i agora","рынок"],["η κάρτα","i karta","карта"],["τα ρέστα","ta resta","сдача"],["η απόδειξη","i apodiksi","чек"],["η προσφορά","i prosfora","скидка"],["το μέγεθος","to megethos","размер"],["το δώρο","to doro","подарок"],["η σακούλα","i sakula","пакет"],["ανοιχτό","anichto","открыто"],["κλειστό","klisto","закрыто"],["κοστίζει","kostizi","стоит"]],
+  "Ресторан и кафе": [["το μενού","to menu","меню"],["ο σερβιτόρος","o servitoros","официант"],["το πιάτο","to piato","тарелка, блюдо"],["το ποτήρι","to potiri","стакан"],["το μαχαίρι","to machairi","нож"],["το πιρούνι","to piruni","вилка"],["το κουτάλι","to kutali","ложка"],["η σούπα","i supa","суп"],["το επιδόρπιο","to epidorpio","десерт"],["το πρωινό","to proino","завтрак"],["το μεσημεριανό","to mesimeriano","обед"],["το βραδινό","to vradino","ужин"],["η μερίδα","i merida","порция"],["πεινάω","pinao","я голоден"],["διψάω","dipsao","я хочу пить"]],
+  "Фрукты и овощи": [["το πορτοκάλι","to portokali","апельсин"],["το λεμόνι","to lemoni","лимон"],["η μπανάνα","i banana","банан"],["το σταφύλι","to stafili","виноград"],["το αχλάδι","to achladi","груша"],["το ροδάκινο","to rodakino","персик"],["το καρπούζι","to karpuzi","арбуз"],["η φράουλα","i fraula","клубника"],["το καρότο","to karoto","морковь"],["το κρεμμύδι","to kremmidi","лук"],["το σκόρδο","to skordo","чеснок"],["το αγγούρι","to anguri","огурец"],["η πιπεριά","i piperia","болгарский перец"],["το μανιτάρι","to manitari","гриб"],["το φρούτο","to fruto","фрукт"]],
+  "Продукты и сладости": [["το βούτυρο","to vutiro","сливочное масло"],["η ζάχαρη","i zachari","сахар"],["το αλάτι","to alati","соль"],["το πιπέρι","to piperi","чёрный перец"],["το ρύζι","to rizi","рис"],["τα μακαρόνια","ta makaronia","макароны"],["το μέλι","to meli","мёд"],["το γιαούρτι","to yiaurti","йогурт"],["η σοκολάτα","i sokolata","шоколад"],["το παγωτό","to pagoto","мороженое"],["το γλυκό","to glyko","сладкое"],["ο χυμός","o chimos","сок"],["η μπύρα","i bira","пиво"],["το σάντουιτς","to sandwich","сэндвич"],["το φαγητό","to fayito","еда"]],
+  "Путешествия и отель": [["το ταξίδι","to taxidi","путешествие"],["οι διακοπές","i diakopes","отпуск"],["το διαβατήριο","to diavatirio","паспорт"],["η βαλίτσα","i valitsa","чемодан"],["ο χάρτης","o chartis","карта"],["η ρεσεψιόν","i resepsion","ресепшн"],["η πτήση","i ptisi","рейс"],["η είσοδος","i isodos","вход"],["η έξοδος","i eksodos","выход"],["ο τουρίστας","o touristas","турист"],["το νησί","to nisi","остров"],["το μουσείο","to musio","музей"],["η εκκλησία","i ekklisia","церковь"],["το πλοίο","to plio","корабль"],["η διεύθυνση","i diefthinsi","адрес"]],
+  "Направления и место": [["δεξιά","dexia","справа"],["αριστερά","aristera","слева"],["ίσια","isia","прямо"],["κοντά","konta","близко"],["μακριά","makria","далеко"],["μπροστά","brosta","впереди"],["πίσω","piso","сзади"],["πάνω","pano","наверху"],["κάτω","kato","внизу"],["μέσα","mesa","внутри"],["έξω","exo","снаружи"],["δίπλα","dipla","рядом"],["απέναντι","apenanti","напротив"],["στη γωνία","sti gonia","на углу"],["ανάμεσα","anamesa","между"]],
+  "Месяцы и времена года": [["ο Ιανουάριος","o ianuarios","январь"],["ο Φεβρουάριος","o fevruarios","февраль"],["ο Μάρτιος","o martios","март"],["ο Απρίλιος","o aprilios","апрель"],["ο Μάιος","o maios","май"],["ο Ιούνιος","o iunios","июнь"],["ο Ιούλιος","o iulios","июль"],["ο Αύγουστος","o avgustos","август"],["ο Σεπτέμβριος","o septemvrios","сентябрь"],["ο Οκτώβριος","o oktovrios","октябрь"],["ο Νοέμβριος","o noemvrios","ноябрь"],["ο Δεκέμβριος","o dekemvrios","декабрь"],["η άνοιξη","i anixi","весна"],["το καλοκαίρι","to kalokeri","лето"],["το φθινόπωρο","to fthinoporo","осень"],["ο χειμώνας","o chimonas","зима"]],
+  "Дни недели и время": [["η Τρίτη","i triti","вторник"],["η Τετάρτη","i tetarti","среда"],["η Πέμπτη","i pempti","четверг"],["η Παρασκευή","i paraskevi","пятница"],["το Σάββατο","to savvato","суббота"],["το Σαββατοκύριακο","to savvatokiriako","выходные"],["το απόγευμα","to apogevma","день, после полудня"],["το μεσημέρι","to mesimeri","полдень"],["η νύχτα","i nichta","ночь"],["το λεπτό","to lepto","минута"],["το δευτερόλεπτο","to defterolepto","секунда"],["η στιγμή","i stigmi","момент"],["η ημερομηνία","i imerominia","дата"],["η γιορτή","i giorti","праздник"],["το ρολόι","to roloi","часы"]],
+  "Эмоции и характер": [["χαρούμενος","charumenos","весёлый"],["λυπημένος","lipimenos","грустный"],["κουρασμένος","kurasmenos","усталый"],["θυμωμένος","thimomenos","сердитый"],["ευτυχισμένος","eftichismenos","счастливый"],["φοβάμαι","fovame","я боюсь"],["ήσυχος","isichos","спокойный, тихий"],["ευγενικός","evgenikos","вежливый"],["έξυπνος","eksipnos","умный"],["τεμπέλης","tembelis","ленивый"],["ντροπαλός","dropalos","застенчивый"],["περίεργος","periergos","любопытный, странный"],["χαίρομαι","cheromai","я радуюсь"],["στεναχωρημένος","stenachoremenos","расстроенный"],["η χαρά","i chara","радость"]],
+  "Животные": [["ο σκύλος","o skilos","собака"],["η γάτα","i gata","кошка"],["το άλογο","to alogo","лошадь"],["η αγελάδα","i agelada","корова"],["το πρόβατο","to provato","овца"],["η κατσίκα","i katsika","коза"],["το πουλί","to puli","птица"],["το ποντίκι","to pondiki","мышь"],["η μέλισσα","i melissa","пчела"],["η πεταλούδα","i petaluda","бабочка"],["ο ελέφαντας","o elefantas","слон"],["το λιοντάρι","to liontari","лев"],["η αρκούδα","i arkuda","медведь"],["το κουνέλι","to kuneli","кролик"],["η χελώνα","i chelona","черепаха"]],
+  "Хобби и досуг": [["η μουσική","i musiki","музыка"],["το τραγούδι","to tragudi","песня"],["η ταινία","i tenia","фильм"],["ο κινηματογράφος","o kinimatografos","кино"],["το ποδόσφαιρο","to podosfero","футбол"],["το κολύμπι","to kolimbi","плавание"],["η φωτογραφία","i fotografia","фотография"],["το παιχνίδι","to pechnidi","игра"],["ο χορός","o choros","танец"],["η εκδρομή","i ekdromi","экскурсия"],["η βόλτα","i volta","прогулка"],["η ζωγραφική","i zografiki","живопись"],["το θέατρο","to theatro","театр"],["η συναυλία","i sinavlia","концерт"],["ο αθλητισμός","o athlitismos","спорт"]],
+  "Бытовые глаголы": [["ξυπνάω","ksipnao","я просыпаюсь"],["σηκώνομαι","sikonome","я встаю"],["πλένομαι","plenome","я моюсь"],["ντύνομαι","dinome","я одеваюсь"],["μαγειρεύω","mayirevo","я готовлю"],["καθαρίζω","katharizo","я убираю"],["ανοίγω","anigo","я открываю"],["κλείνω","klino","я закрываю"],["παίρνω","perno","я беру"],["δίνω","dino","я даю"],["βάζω","vazo","я кладу"],["βρίσκω","vrisko","я нахожу"],["ψάχνω","psachno","я ищу"],["περιμένω","perimeno","я жду"],["τηλεφωνώ","tilefono","я звоню"]],
+  "Глаголы общения и учёбы": [["μιλάω","milao","я говорю"],["ακούω","akuo","я слушаю"],["διαβάζω","diavazo","я читаю"],["γράφω","grafo","я пишу"],["μαθαίνω","mathaino","я учу"],["καταλαβαίνω","katalaveno","я понимаю"],["θυμάμαι","thimame","я помню"],["ρωτάω","rotao","я спрашиваю"],["απαντάω","apantao","я отвечаю"],["βοηθάω","voithao","я помогаю"],["σκέφτομαι","skeftome","я думаю"],["δουλεύω","dulevo","я работаю"],["παίζω","pezo","я играю"],["τραγουδάω","tragudao","я пою"],["χορεύω","chorevo","я танцую"]],
+  "Глаголы движения": [["περπατάω","perpatao","я гуляю, иду пешком"],["τρέχω","trecho","я бегу"],["φεύγω","fevgo","я ухожу, уезжаю"],["φτάνω","ftano","я прибываю"],["γυρίζω","girizo","я возвращаюсь"],["μπαίνω","beno","я вхожу"],["βγαίνω","vgeno","я выхожу"],["ταξιδεύω","taksidevo","я путешествую"],["οδηγώ","odigo","я веду машину"],["πληρώνω","plirono","я плачу"],["ανεβαίνω","anevaino","я поднимаюсь"],["κατεβαίνω","katevaino","я спускаюсь"],["κάθομαι","kathome","я сижу"],["στέκομαι","stekome","я стою"],["ζω","zo","я живу"]],
+  "Прилагательные: ещё": [["βαρύς","varis","тяжёлый"],["ελαφρύς","elafris","лёгкий (по весу)"],["ψηλός","psilos","высокий"],["κοντός","kontos","низкий"],["χοντρός","chontros","толстый"],["αδύνατος","adinatos","худой"],["καθαρός","katharos","чистый"],["βρώμικος","vromikos","грязный"],["γεμάτος","yematos","полный"],["άδειος","adios","пустой"],["σωστός","sostos","правильный"],["σημαντικός","simantikos","важный"],["διαφορετικός","diaforetikos","другой, разный"],["φρέσκος","freskos","свежий"],["γλυκός","glykos","сладкий"]],
+  "Профессии": [["ο μάγειρας","o mayiras","повар"],["ο οδηγός","o odigos","водитель"],["ο αστυνομικός","o astynomikos","полицейский"],["ο δικηγόρος","o dikigoros","юрист"],["ο μηχανικός","o michanikos","инженер"],["ο νοσοκόμος","o nosokomos","медбрат"],["ο αγρότης","o agrotis","фермер"],["ο πωλητής","o politis","продавец"],["ο υπάλληλος","o ypallilos","служащий"],["ο μουσικός","o musikos","музыкант"],["ο ψαράς","o psaras","рыбак"],["ο ηθοποιός","o ithopoios","актёр"],["ο φούρναρης","o furnaris","пекарь"],["ο κομμωτής","o komotis","парикмахер"],["ο διευθυντής","o diefthintis","директор"]],
+  "Полезные фразы": [["δεν καταλαβαίνω","den katalaveno","я не понимаю"],["δεν ξέρω","den ksero","я не знаю"],["ξανά","ksana","ещё раз"],["πιο αργά","pio arga","помедленнее"],["εντάξει","entaksi","хорошо, ладно"],["φυσικά","fisika","конечно"],["βοήθεια","voithia","помощь"],["προσοχή","prosochi","осторожно"],["χαίρω πολύ","chero poli","приятно познакомиться"],["καλή τύχη","kali tichi","удачи"],["χρόνια πολλά","chronia polla","с днём рождения"],["στην υγειά μας","stin igia mas","за здоровье"],["τι ώρα είναι","ti ora ine","который час"],["μιλάτε αγγλικά","milate anglika","вы говорите по-английски"],["καλό ταξίδι","kalo taxidi","счастливого пути"]],
+  "Предметы вокруг": [["ο καθρέφτης","o kathreftis","зеркало"],["η λάμπα","i lampa","лампа"],["το ψυγείο","to psigio","холодильник"],["η τηλεόραση","i tileorasi","телевизор"],["το σαπούνι","to sapuni","мыло"],["η πετσέτα","i petseta","полотенце"],["η ομπρέλα","i obrela","зонт"],["το στυλό","to stilo","ручка"],["το χαρτί","to charti","бумага"],["το τετράδιο","to tetradio","тетрадь"],["η εφημερίδα","i efimerida","газета"],["η κουβέρτα","i kuverta","одеяло"],["ο καναπές","o kanapes","диван"],["η ντουλάπα","i dulapa","шкаф"],["το κουδούνι","to kuduni","звонок"]],
+  "Слова времени и порядка": [["ήδη","idi","уже"],["ακόμα","akoma","ещё"],["πριν","prin","до, раньше"],["μετά","meta","после"],["συχνά","sichna","часто"],["μερικές φορές","merikes fores","иногда"],["πάλι","pali","снова"],["μόνο","mono","только"],["επίσης","episis","также"],["αμέσως","amesos","сразу"],["νωρίς","noris","рано"],["αργά","arga","поздно"],["τελικά","telika","в итоге"],["πρώτα","prota","сначала"],["ξαφνικά","ksafnika","вдруг"]],
+  "Количество и мера": [["πολλά","polla","много"],["όλα","ola","всё"],["τίποτα","tipota","ничего"],["κάτι","kati","что-то"],["κάθε","kathe","каждый"],["άλλος","alos","другой"],["μισός","misos","половина"],["το κομμάτι","to komati","кусок"],["το κιλό","to kilo","килограмм"],["το λίτρο","to litro","литр"],["το μέτρο","to metro","метр"],["το χιλιόμετρο","to chiliometro","километр"],["αρκετός","arketos","достаточный"],["περισσότερο","perissotero","больше"],["λιγότερο","ligotero","меньше"]],
+  "Числа: ещё": [["μηδέν","miden","ноль"],["έντεκα","enteka","одиннадцать"],["δώδεκα","dodeka","двенадцать"],["δεκαπέντε","dekapente","пятнадцать"],["τριάντα","trianta","тридцать"],["σαράντα","saranta","сорок"],["πενήντα","peninta","пятьдесят"],["εξήντα","eksinta","шестьдесят"],["εβδομήντα","evdominta","семьдесят"],["ογδόντα","ogdonta","восемьдесят"],["ενενήντα","eneninta","девяносто"],["διακόσια","diakosia","двести"],["χίλια","chilia","тысяча"],["πρώτος","protos","первый"],["δεύτερος","defteros","второй"],["τρίτος","tritos","третий"]],
+  "Страны и города": [["η Ελλάδα","i Eladha","Греция"],["η Ρωσία","i Rosia","Россия"],["το Καζακστάν","to Kazakstan","Казахстан"],["η Αθήνα","i Athina","Афины"],["η Θεσσαλονίκη","i Thessaloniki","Салоники"],["η Κρήτη","i Kriti","Крит"],["η Ευρώπη","i Evropi","Европа"],["η Αγγλία","i Anglia","Англия"],["η Γερμανία","i Germania","Германия"],["η Γαλλία","i Gallia","Франция"],["η Ιταλία","i Italia","Италия"],["η Ισπανία","i Ispania","Испания"],["η Τουρκία","i Turkia","Турция"],["η Κύπρος","i Kipros","Кипр"],["η Αμερική","i Ameriki","Америка"]],
+  "Язык и мир": [["τα ελληνικά","ta elinika","греческий язык"],["τα ρωσικά","ta rosika","русский язык"],["τα αγγλικά","ta anglika","английский язык"],["ο Έλληνας","o Ellinas","грек"],["η Ελληνίδα","i Ellinida","гречанка"],["ο ξένος","o ksenos","иностранец"],["η γλώσσα","i glossa","язык"],["η λέξη","i leksi","слово"],["η πρόταση","i protasi","предложение"],["η χώρα","i chora","страна"],["η σημαία","i simea","флаг"],["η πατρίδα","i patrida","родина"],["ο κόσμος","o kosmos","мир"],["η ιστορία","i istoria","история"],["η κουλτούρα","i kultura","культура"]]
+};
+const DIRS = {"gr":"Греческий → русский","ru":"Русский → греческий"};
+const LENS = [5,10,20];
+const $ = id => document.getElementById(id);
+const st = {cats:new Set(Object.keys(WORDS)), dir:"gr", len:10, queue:[], i:0, score:0, streak:0, wrong:[], answered:false};
+
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function chips(el, items, isOn, onTap){
+  el.innerHTML="";
+  items.forEach(([key,label])=>{
+    const b=document.createElement("button");b.className="chip";b.textContent=label;
+    b.setAttribute("aria-pressed",isOn(key));
+    b.onclick=()=>{onTap(key);chips(el,items,isOn,onTap);checkStart()};
+    el.appendChild(b);
+  });
+}
+function checkStart(){$("start").disabled=st.cats.size===0}
+function bestKey(){return "greek-quiz-best"}
+function readBest(){try{return localStorage.getItem(bestKey())}catch(e){return null}}
+function saveBest(p){try{const b=+readBest()||0;if(p>b)localStorage.setItem(bestKey(),p)}catch(e){}}
+function showBest(){const b=readBest();$("best").textContent=b?"Лучший результат: "+b+"%":""}
+
+function menu(){
+  const ALL=Object.keys(WORDS);
+  chips($("cats"),[["__all","Все темы"],...ALL.map(k=>[k,k])],k=>k==="__all"?st.cats.size===ALL.length:st.cats.has(k),k=>{if(k==="__all"){st.cats=st.cats.size===ALL.length?new Set():new Set(ALL)}else{st.cats.has(k)?st.cats.delete(k):st.cats.add(k)}});
+  chips($("dirs"),Object.entries(DIRS),k=>st.dir===k,k=>st.dir=k);
+  chips($("lens"),LENS.map(n=>[n,String(n)]),k=>st.len==k,k=>st.len=+k);
+  checkStart();showBest();
+  show("menu");
+}
+function show(id){["menu","quiz","result"].forEach(s=>$(s).classList.toggle("hidden",s!==id))}
+function pool(){return [...st.cats].flatMap(c=>WORDS[c])}
+
+function begin(words){
+  st.queue=shuffle(words).slice(0,st.len);st.i=0;st.score=0;st.streak=0;st.wrong=[];
+  show("quiz");ask();
+}
+function ask(){
+  const w=st.queue[st.i];st.answered=false;
+  const toRu=st.dir==="gr";
+  $("prog").style.width=(st.i/st.queue.length*100)+"%";
+  $("count").textContent="Вопрос "+(st.i+1)+" из "+st.queue.length;
+  $("streak").textContent=st.streak>1?"Серия: "+st.streak:"";
+  const q=$("word");q.textContent=toRu?w[0]:w[2];q.classList.toggle("ru",!toRu);
+  $("tr").textContent=toRu?"["+w[1]+"]":"";$("fb").textContent="";$("fb").className="fb";
+  const all=Object.values(WORDS).flat().filter(x=>x[0]!==w[0]);
+  const opts=shuffle([w,...shuffle(all).slice(0,3)]);
+  const box=$("opts");box.innerHTML="";
+  opts.forEach(o=>{
+    const b=document.createElement("button");b.className="opt"+(toRu?"":" greek");
+    b.textContent=toRu?o[2]:o[0];
+    b.onclick=()=>pick(b,o,w,opts);
+    b.dataset.id=o[0];box.appendChild(b);
+  });
+  $("next").disabled=true;
+  $("next").textContent=st.i===st.queue.length-1?"Завершить":"Дальше";
+}
+function pick(btn,o,w){
+  if(st.answered)return;st.answered=true;
+  const good=o[0]===w[0];
+  [...$("opts").children].forEach(b=>{b.disabled=true;if(b.dataset.id===w[0])b.classList.add("ok")});
+  if(good){st.score++;st.streak++}else{btn.classList.add("bad");st.streak=0;st.wrong.push(w)}
+  $("tr").textContent="["+w[1]+"] "+(st.dir==="gr"?"":w[0]);
+  if(st.dir==="ru")$("tr").textContent=w[0]+" ["+w[1]+"]";
+  const f=$("fb");f.className="fb "+(good?"ok":"bad");f.textContent=good?"✓ Правильно":"✗ Неправильно — верно: "+(st.dir==="gr"?w[2]:w[0]);
+  $("next").disabled=false;$("next").focus();
+}
+function finish(){
+  const p=Math.round(st.score/st.queue.length*100);
+  saveBest(p);
+  $("score").textContent="Правильно: "+st.score+" из "+st.queue.length;
+  $("pct").textContent=p+"%";$("rf").style.strokeDashoffset=326.7;
+  setTimeout(()=>{$("rf").style.strokeDashoffset=326.7*(1-p/100)},60);
+  $("msg").textContent=p===100?"Безупречно!":p>=70?"Хороший результат — "+p+"%":"Есть над чем поработать — "+p+"%";
+  const m=$("miss");m.innerHTML="";
+  st.wrong.forEach(w=>{const d=document.createElement("div");d.className="miss";
+    d.innerHTML='<span class="greek"></span><span></span>';
+    d.children[0].textContent=w[0]+" ["+w[1]+"]";d.children[1].textContent=w[2];m.appendChild(d)});
+  $("missPanel").classList.toggle("hidden",!st.wrong.length);
+  $("retry").classList.toggle("hidden",!st.wrong.length);
+  show("result");
+}
+$("start").onclick=()=>begin(pool());
+$("next").onclick=()=>{if(st.i>=st.queue.length-1){finish()}else{st.i++;ask()}};
+$("again").onclick=()=>begin(pool());
+$("retry").onclick=()=>{const w=st.wrong.slice();st.len=w.length;begin(w)};
+$("toMenu").onclick=()=>{st.len=10;menu()};
+$("theme").onclick=()=>{const r=document.documentElement;r.dataset.theme=r.dataset.theme==="dark"?"light":"dark"};
+menu();
+</script>
+</body>
+</html>
